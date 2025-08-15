@@ -14,72 +14,7 @@ const AIModels = () => {
   ];
 
   const models = [
-    {
-      id: 1,
-      name: 'Sentiment Analysis Engine',
-      category: 'nlp',
-      description: 'Advanced NLP model for real-time sentiment analysis with 95% accuracy',
-      accuracy: '95%',
-      parameters: '175M',
-      useCase: 'Customer feedback analysis, social media monitoring',
-      tech: ['BERT', 'Transformers', 'PyTorch'],
-      image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop',
-    },
-    {
-      id: 2,
-      name: 'Object Detection System',
-      category: 'vision',
-      description: 'Real-time object detection with YOLO architecture for autonomous systems',
-      accuracy: '92%',
-      parameters: '45M',
-      useCase: 'Autonomous vehicles, security systems, retail analytics',
-      tech: ['YOLO', 'OpenCV', 'TensorFlow'],
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
-    },
-    {
-      id: 3,
-      name: 'Text Generation Model',
-      category: 'generative',
-      description: 'Large language model for creative writing and content generation',
-      accuracy: '88%',
-      parameters: '1.5B',
-      useCase: 'Content creation, chatbots, creative writing assistance',
-      tech: ['GPT', 'Hugging Face', 'PyTorch'],
-      image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop',
-    },
-    {
-      id: 4,
-      name: 'Demand Forecasting',
-      category: 'predictive',
-      description: 'Time series forecasting model for business demand prediction',
-      accuracy: '89%',
-      parameters: '25M',
-      useCase: 'Inventory management, sales forecasting, resource planning',
-      tech: ['LSTM', 'Prophet', 'Scikit-learn'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop',
-    },
-    {
-      id: 5,
-      name: 'Image Style Transfer',
-      category: 'generative',
-      description: 'Neural style transfer model for artistic image transformation',
-      accuracy: '91%',
-      parameters: '68M',
-      useCase: 'Digital art, content creation, design applications',
-      tech: ['VGG', 'Neural Style', 'TensorFlow'],
-      image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop',
-    },
-    {
-      id: 6,
-      name: 'Named Entity Recognition',
-      category: 'nlp',
-      description: 'Advanced NER model for extracting structured information from text',
-      accuracy: '94%',
-      parameters: '110M',
-      useCase: 'Information extraction, document processing, data mining',
-      tech: ['SpaCy', 'BERT', 'PyTorch'],
-      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=300&fit=crop',
-    },
+    
   ];
 
   const filteredModels = activeCategory === 'all' 
