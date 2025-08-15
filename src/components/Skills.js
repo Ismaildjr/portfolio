@@ -34,9 +34,8 @@ const Skills = () => {
       { name: 'PostgreSQL', level: 90, description: 'Advanced SQL, optimization, data modeling' },
       { name: 'MongoDB', level: 85, description: 'NoSQL, document databases, aggregation pipelines' },
       { name: 'Redis', level: 80, description: 'In-memory databases, caching, session management' },
-      { name: 'Elasticsearch', level: 75, description: 'Search engines, log analysis, data indexing' },
-      { name: 'InfluxDB', level: 70, description: 'Time series databases, IoT data, monitoring' },
-      { name: 'Neo4j', level: 65, description: 'Graph databases, relationship modeling, graph algorithms' },
+      { name: 'MySQL', level: 80, description: 'Relational databases, data integrity, transaction management' },
+
     ],
     cloud: [
       { name: 'AWS', level: 88, description: 'EC2, S3, Lambda, SageMaker, cloud architecture' },

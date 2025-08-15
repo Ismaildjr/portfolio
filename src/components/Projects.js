@@ -8,8 +8,6 @@ const Projects = () => {
   const filters = [
     { id: 'all', name: 'All Projects' },
     { id: 'ai', name: 'AI/ML' },
-    { id: 'web', name: 'Web Apps' },
-    { id: 'mobile', name: 'Mobile' },
     { id: 'api', name: 'APIs' },
   ];
 
@@ -22,7 +20,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop',
       technologies: ['Python', 'Scikit-learn', 'Machine Learning', 'Data Analysis', 'Joblib'],
       github: 'https://github.com/Ismaildjr/cardiac-disease-prediction',
-      live: 'https://github.com/Ismaildjr/cardiac-disease-prediction',
+      live: 'https://cardiac-disease-prediction.onrender.com',
       stars: 0,
       forks: 0,
       featured: true,
@@ -33,9 +31,9 @@ const Projects = () => {
       category: 'api',
       description: 'AI-powered API for predicting software errors from log files. Containerized with Docker and designed for easy deployment and integration with existing systems.',
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
-      technologies: ['Python', 'AI/ML', 'Docker', 'API', 'Log Analysis'],
-      github: 'https://github.com/Ismaildjr',
-      live: 'docker pull ismaildjrr/ai-model-api',
+      technologies: ['Python', 'AI/ML', 'Docker', 'FastAPI', 'Deep Learning' , 'API', 'Log Analysis'],
+      github: 'https://github.com/Ismaildjr/software-failure-predictor',
+      live: 'https://software-error-prediction.onrender.com/model/load',
       stars: 0,
       forks: 0,
       featured: true,
@@ -60,8 +58,8 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Explore my portfolio of innovative projects that showcase the power of AI, 
-            modern web technologies, and creative problem-solving approaches.
+            Explore my portfolio of AI and machine learning projects that showcase 
+            innovative problem-solving approaches and technical expertise.
           </p>
         </motion.div>
 
