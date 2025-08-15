@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin, FaTwitter, FaArrowDown, FaBrain, FaRocket, FaLigh
 
 const Hero = () => {
   const socialLinks = [
-    { icon: FaGithub, href: '#', label: 'GitHub' },
-    { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
-    { icon: FaTwitter, href: '#', label: 'Twitter' },
+    { icon: FaGithub, href: 'https://github.com/Ismaildjr', label: 'GitHub' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/ismail-djeradi-897886277/', label: 'LinkedIn' },
+    
   ];
 
   const features = [
@@ -31,7 +31,7 @@ const Hero = () => {
           className="mb-8"
         >
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            <span className="gradient-text">AI Engineer</span>
+            <span className="gradient-text">Djeradi Ismail</span>
             <br />
             <span className="text-gray-300">Portfolio</span>
           </h1>
