@@ -40,14 +40,14 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      value: 'hello@aiportfolio.com',
+      value: 'ismaildjeradi1@gmail.com',
       link: 'mailto:hello@aiportfolio.com',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: FaPhone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '+213 778275636',
       link: 'tel:+15551234567',
       color: 'from-green-500 to-emerald-500',
     },
@@ -61,9 +61,9 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: FaLinkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-400' },
-    { icon: FaGithub, href: '#', label: 'GitHub', color: 'hover:text-gray-400' },
-    { icon: FaTwitter, href: '#', label: 'Twitter', color: 'hover:text-cyan-400' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/ismail-djeradi-897886277/', label: 'LinkedIn', color: 'hover:text-blue-400' },
+    { icon: FaGithub, href: 'https://github.com/Ismaildjr', label: 'GitHub', color: 'hover:text-gray-400' },
+    
   ];
 
   return (
